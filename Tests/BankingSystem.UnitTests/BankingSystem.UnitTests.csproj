@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.0" />
+      <PackageReference Include="NSubstitute" Version="5.3.0" />
+      <PackageReference Include="xunit" Version="2.9.0" />
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Application\BankingSystem.Application.Abstractions\BankingSystem.Application.Abstractions.csproj" />
+      <ProjectReference Include="..\..\Application\BankingSystem.Application.Contracts\BankingSystem.Application.Contracts.csproj" />
+      <ProjectReference Include="..\..\Application\BankingSystem.Application.Models\BankingSystem.Application.Models.csproj" />
+      <ProjectReference Include="..\..\Application\BankingSystem.Application\BankingSystem.Application.csproj" />
+    </ItemGroup>
+
+</Project>

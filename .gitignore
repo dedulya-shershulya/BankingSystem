@@ -1,0 +1,27 @@
+﻿# Build results
+[Bb]in/
+[Oo]bj/
+
+# IDE files
+.idea/
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+.nuget/
+project.assets.json
+project.nuget.cache
+*.csproj.nuget.*
+project.packagespec.json
+
+# Runtime
+*.runtimeconfig.json
+*.deps.json
+
+# Misc
+*.Up2Date
+*.FileListAbsolute.txt
+*.AssemblyInfo.cs
+*.genruntimeconfig.cache
+
+.env
